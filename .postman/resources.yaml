@@ -1,0 +1,22 @@
+workspace:
+  id: b8e7d335-0fb2-423d-9ceb-006254461afc
+localResources:
+  collections:
+    - ../postman/collections/[Baseline] loan-origination-api
+    - ../postman/collections/[Smoke] loan-origination-api
+    - ../postman/collections/[Contract] loan-origination-api
+  environments:
+    - ../postman/environments/prod.postman_environment.json
+    - ../postman/environments/staging.postman_environment.json
+    - ../postman/environments/dev.postman_environment.json
+  specs:
+    - ../specs/loan-origination-api-openapi.yaml
+cloudResources:
+  collections:
+    ../postman/collections/[Baseline] loan-origination-api: 5019470-021f792e-fbcd-445a-8f46-49613f5d580f
+    ../postman/collections/[Smoke] loan-origination-api: 5019470-542e11e7-5d09-4ef9-9c8a-6d87a761ea2f
+    ../postman/collections/[Contract] loan-origination-api: 5019470-d617873e-3c7d-4459-8e68-ccd1187e2764
+  environments:
+    ../postman/environments/prod.postman_environment.json: 5019470-dca40293-634d-4d07-a4a0-e79c265f3c93
+    ../postman/environments/staging.postman_environment.json: 5019470-f12a6265-2a82-446e-ac5e-fbf208620699
+    ../postman/environments/dev.postman_environment.json: 5019470-b676b9ae-5970-49cf-8677-fd32e9ee0c1c
